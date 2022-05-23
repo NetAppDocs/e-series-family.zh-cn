@@ -1,0 +1,91 @@
+---
+permalink: intro-family.html 
+keywords: introduction, what E-Series is, e-series, SANtricity, CLI, system manager, unified manager 
+summary: NetApp E系列产品系列可为需要简单、易于管理且具有企业级可靠性的快速块存储的高带宽应用程序提供存储和应用程序数据管理服务。 
+---
+= E系列存储系统简介
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
+
+
+NetApp E系列存储系列可灵活且经济高效地备份和恢复到云、专为需要简单、易于管理且具有企业级可靠性的快速块存储的专用高带宽应用程序而设计。
+
+
+
+== E系列平台
+
+E系列存储系统使用应用程序感知型数据管理工具、这些工具可以在2U或4U外形规格中处理多种驱动器类型。您可以将存储系统从多种接口类型连接到SAN以及各种主机操作系统。
+
+E系列存储系统包括以下平台型号。
+
+
+
+=== EF600和EF300
+
+专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。 https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["阅读EF系列产品规格"^]。
+
+
+
+=== E5700
+
+专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。 https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["阅读E5700产品规格"^]。
+
+
+
+=== E2800
+
+针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。 https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["阅读E2800产品规格"^]。
+
+
+
+== SANtricity 软件
+
+SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。 https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf["阅读SANtricity 软件产品规格"^]。
+
+
+
+=== SANtricity 系统管理器
+
+System Manager 是嵌入在每个控制器上的基于 Web 的管理软件。要访问用户界面、请将浏览器指向控制器的IP地址。设置向导可帮助您开始进行系统配置。
+
+* 直观的工作流向导和上下文相关信息有助于简化配置任务。
+* 该软件建议采用一些配置方案、以利用硬件功能、例如在密集型机箱上保护抽盒丢失以及在SSD上智能管理使用寿命和性能。
+* 通过复杂的性能监控、您可以从系统级别向下查看各个驱动器的信息、或者导出性能数据以供进一步分析。
+* 管理SSD缓存或数据缓存等调整活动均处于联机状态。需要修复时、SANtricity 恢复Guru会提供分步说明。
+
+
+
+
+=== SANtricity 统一管理器
+
+Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新的 E 系列和 EF 系列阵列的状态，例如 E2800 ， EF280 ， EF300 ， E5700 ， EF570 ， 和 EF600 。您还可以对选定存储阵列执行批处理操作。
+
+* 您可以通过一个窗口查看状态、将阵列组织成组、更新多个阵列的SANtricity 操作系统以及为每个阵列启动机载SANtricity 系统管理器。
+* 您可以通过单个操作快速为多个阵列配置警报和其他设置。
+* SANtricity 统一管理器安装在Linux或Windows管理服务器上、并在浏览器中运行。
+
+
+
+
+=== SANtricity Web 服务代理
+
+Web服务代理是一款功能全面的RESTful API服务器、可满足业务流程和自动化需求、可管理数百个新的和旧的E系列阵列。代理单独安装在 Windows 或 Linux 服务器上。Web 服务包含 API 文档，可用于直接与 REST API 进行交互。
+
+
+
+== 命令行界面
+
+命令行界面（ CLI ）是一种软件应用程序，可用于配置和监控存储阵列。
+
+使用 CLI ，您可以从操作系统提示符运行命令，例如 DOS C ：提示符， Linux 操作系统路径或 Solaris 操作系统路径。
+
+
+
+== 有关详细信息 ...
+
+* https://docs.netapp.com/us-en/e-series/index.html["E系列系统文档"^]
+* https://docs.netapp.com/us-en/e-series-santricity/index.html["SANtricity 软件文档"^]
+* https://docs.netapp.com/us-en/e-series-cli/index.html["SANtricity 命令行界面文档"^]
+

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E 系列 /EF 系列 SANtricity 操作系统注意事项</block>
+  <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
+  <block id="382db393e370bfa3a27169d580a3161c" category="summary">NetApp E系列产品系列可为需要简单、易于管理且具有企业级可靠性的快速块存储的高带宽应用程序提供存储和应用程序数据管理服务。</block>
+  <block id="dc1480e3f0580dddb0eb15f3b1bd5d52" category="doc">E系列存储系统简介</block>
+  <block id="60adc38a80ac6ff80c4e7414ed3a9242" category="paragraph">NetApp E系列存储系列可灵活且经济高效地备份和恢复到云、专为需要简单、易于管理且具有企业级可靠性的快速块存储的专用高带宽应用程序而设计。</block>
+  <block id="7198a11b2d2b782e219fa68720bb5d6c" category="section-title">E系列平台</block>
+  <block id="f13bfd89800bb7dd61e5dae9b1a91f8a" category="paragraph">E系列存储系统使用应用程序感知型数据管理工具、这些工具可以在2U或4U外形规格中处理多种驱动器类型。您可以将存储系统从多种接口类型连接到SAN以及各种主机操作系统。</block>
+  <block id="474ecc1d12d7c4faf62dd1c969e4f160" category="paragraph">E系列存储系统包括以下平台型号。</block>
+  <block id="142d49f5d8166cda23176c9355cb6387" category="section-title">EF600和EF300</block>
+  <block id="79f8f1fbe8dcba48c51b15f621e49c92" category="inline-link">阅读EF系列产品规格</block>
+  <block id="824daac554592cadf3b249894d67cff8" category="paragraph">专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。<block ref="71dc60d79dd40763b18f513ded3d99e8" category="inline-link-rx"></block>。</block>
+  <block id="176e516e8cae45764073b4a9b3674666" category="section-title">E5700</block>
+  <block id="e8b9daf8d8b00f9b9b2515d42827f16a" category="inline-link">阅读E5700产品规格</block>
+  <block id="b41245e938c0eb6a57785a746765fa7c" category="paragraph">专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。<block ref="72e93c931f93e0c8c8db687b40f1ace1" category="inline-link-rx"></block>。</block>
+  <block id="36ea2743576b4967eefec734fdf225a7" category="section-title">E2800</block>
+  <block id="6f17c1b5648204e27c5232cfad266c55" category="inline-link">阅读E2800产品规格</block>
+  <block id="e8f23798dedf5fb04422ba0f033696c5" category="paragraph">针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。<block ref="26480bd821c09889b2e5cbaaf48e5dc8" category="inline-link-rx"></block>。</block>
+  <block id="eecdfe99dab1ba77ed2b7b1d9b86256b" category="section-title">SANtricity 软件</block>
+  <block id="c85501584627f2cc9e6b757a852d4e63" category="inline-link">阅读SANtricity 软件产品规格</block>
+  <block id="84bc0a1513121ee956ca4ce10ead9936" category="paragraph">SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。<block ref="c400d3a8092cc6a075073949ecf7a212" category="inline-link-rx"></block>。</block>
+  <block id="0472921e1ddce2239a2bd92ea276d1c2" category="section-title">SANtricity 系统管理器</block>
+  <block id="155ba2a638583b348ccb0b7fc7108688" category="paragraph">System Manager 是嵌入在每个控制器上的基于 Web 的管理软件。要访问用户界面、请将浏览器指向控制器的IP地址。设置向导可帮助您开始进行系统配置。</block>
+  <block id="6f61b0c447b71c45c147e05cbfc87178" category="list-text">直观的工作流向导和上下文相关信息有助于简化配置任务。</block>
+  <block id="d58a6774dd36696628592a8eff022a15" category="list-text">该软件建议采用一些配置方案、以利用硬件功能、例如在密集型机箱上保护抽盒丢失以及在SSD上智能管理使用寿命和性能。</block>
+  <block id="1b306f277e433d9c7e0233e720d52d99" category="list-text">通过复杂的性能监控、您可以从系统级别向下查看各个驱动器的信息、或者导出性能数据以供进一步分析。</block>
+  <block id="71f014c2f7e738ecc931a0a516a33238" category="list-text">管理SSD缓存或数据缓存等调整活动均处于联机状态。需要修复时、SANtricity 恢复Guru会提供分步说明。</block>
+  <block id="93abfbfe31ac8cb67502c94e622ee8a8" category="section-title">SANtricity 统一管理器</block>
+  <block id="1a3e4ccf2425125b19b4d5b3b8b17da4" category="paragraph">Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中央视图中，您可以查看所有较新的 E 系列和 EF 系列阵列的状态，例如 E2800 ， EF280 ， EF300 ， E5700 ， EF570 ， 和 EF600 。您还可以对选定存储阵列执行批处理操作。</block>
+  <block id="f18f8f90cfe3810c5e7f5c085e94d1a7" category="list-text">您可以通过一个窗口查看状态、将阵列组织成组、更新多个阵列的SANtricity 操作系统以及为每个阵列启动机载SANtricity 系统管理器。</block>
+  <block id="e65516a5e95531b050dd3751b19ef2f9" category="list-text">您可以通过单个操作快速为多个阵列配置警报和其他设置。</block>
+  <block id="5bb111ca60863cc17cf83064aea26a19" category="list-text">SANtricity 统一管理器安装在Linux或Windows管理服务器上、并在浏览器中运行。</block>
+  <block id="ecec8539b1f11214ad374681d68d19e9" category="section-title">SANtricity Web 服务代理</block>
+  <block id="daeeebb8e9e597b9227ca801571d0a1d" category="paragraph">Web服务代理是一款功能全面的RESTful API服务器、可满足业务流程和自动化需求、可管理数百个新的和旧的E系列阵列。代理单独安装在 Windows 或 Linux 服务器上。Web 服务包含 API 文档，可用于直接与 REST API 进行交互。</block>
+  <block id="91af5705f16502125e8b2187e64202c0" category="section-title">命令行界面</block>
+  <block id="d5a07a929adbc3f8e1dccfa24e88da4b" category="paragraph">命令行界面（ CLI ）是一种软件应用程序，可用于配置和监控存储阵列。</block>
+  <block id="f4607823508251fea132b5896ba4f3ac" category="paragraph">使用 CLI ，您可以从操作系统提示符运行命令，例如 DOS C ：提示符， Linux 操作系统路径或 Solaris 操作系统路径。</block>
+  <block id="d13de4a83d7b44c2e65495def8ef1c7b" category="section-title">有关详细信息 ...</block>
+  <block id="830ee94872b7a18739baf66c6ccbb536" category="inline-link">E系列系统文档</block>
+  <block id="62e3a3373b07a4ed70aa50f0850dadb1" category="list-text"><block ref="62e3a3373b07a4ed70aa50f0850dadb1" category="inline-link-rx"></block></block>
+  <block id="fb38142cf581707ecd8e0a64768f30e2" category="inline-link">SANtricity 软件文档</block>
+  <block id="e050e4490e5eaec5fd5e4bf4116c7362" category="list-text"><block ref="e050e4490e5eaec5fd5e4bf4116c7362" category="inline-link-rx"></block></block>
+  <block id="eba4a8577f6ea49ab0d9329cade5c5db" category="inline-link">SANtricity 命令行界面文档</block>
+  <block id="08b37af774e1d6729f763c26e7c1384a" category="list-text"><block ref="08b37af774e1d6729f763c26e7c1384a" category="inline-link-rx"></block></block>
+  <block id="5f93f381aa8df330451fa5b834f54def" category="doc">E 系列文档</block>
+  <block id="294d136d5efcf1648eafe92db6c5cf9e" category="sidebar">E系列产品系列文档</block>
+  <block id="3a1266b54b8b88dbb50662ab4166c05f" category="sidebar">所有文档</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
+  <block id="dc21b082b0947a93d387b8c7e8f89ee5" category="sidebar">数据存储</block>
+  <block id="bfd15aa26ba0ced782240c4a8b7e517e" category="sidebar">存储管理</block>
+  <block id="8c191741b464ec7257da6dda2ea38d91" category="sidebar">了解E系列系列</block>
+  <block id="447139bc81b52e1a424305db2e2a4444" category="sidebar">了解E系列存储系统系列。</block>
+  <block id="69f6cbec6c91e989cb5c058849d7ff20" category="sidebar">E系列系统</block>
+  <block id="4fa72b310e1ed4cfa3e25e3a7968eedb" category="sidebar">使用E系列存储系统以快速的块存储和企业级可靠性为您的应用程序工作负载提供支持。</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity 软件</block>
+  <block id="7669263ca1cb255bffb7dbd87c93b300" category="sidebar">使用SANtricity 软件从基于Web的界面配置和管理E系列存储系统。</block>
+  <block id="4b77a7b9a57e83d2c4b01e16f3234143" category="sidebar">命令行界面</block>
+  <block id="19a0a15a7c4d3a3bc51418cbc9a3b2ec" category="sidebar">使用命令行界面从操作系统提示符配置和监控E系列存储系统。</block>
+  <block id="7be46423c2b30b6cfa401cb45a35ad2b" category="sidebar">Web服务API</block>
+  <block id="c47070155f88602aa042524cd2cc4603" category="sidebar">使用RESTful API跨新的和旧的E系列存储系统构建和自动化工作流。</block>
+</blocks>

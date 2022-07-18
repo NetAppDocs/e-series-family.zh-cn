@@ -24,25 +24,33 @@ E系列存储系统包括以下平台型号。
 
 === EF600和EF300
 
-专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。 https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["阅读EF系列产品规格"^]。
+专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。
+
+https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["阅读EF系列产品规格"^]。
 
 
 
 === E5700
 
-专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。 https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["阅读E5700产品规格"^]。
+专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。
+
+https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["阅读E5700产品规格"^]。
 
 
 
 === E2800
 
-针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。 https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["阅读E2800产品规格"^]。
+针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。
+
+https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["阅读E2800产品规格"^]。
 
 
 
 == SANtricity 软件
 
-SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。 https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf["阅读SANtricity 软件产品规格"^]。
+SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。
+
+https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf["阅读SANtricity 软件产品规格"^]。
 
 
 
@@ -56,6 +64,8 @@ System Manager 是嵌入在每个控制器上的基于 Web 的管理软件。要
 * 管理SSD缓存或数据缓存等调整活动均处于联机状态。需要修复时、SANtricity 恢复Guru会提供分步说明。
 
 
+转至 https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html["SANtricity System Manager文档站点"]，您可以在其中找到有关如何规划，配置，管理存储阵列以及对其进行故障排除的信息。
+
 
 
 === SANtricity 统一管理器
@@ -67,11 +77,15 @@ Unified Manager 是一款基于 Web 的软件，用于管理整个域。从中�
 * SANtricity 统一管理器安装在Linux或Windows管理服务器上、并在浏览器中运行。
 
 
+转至 https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html["SANtricity Unified Manager文档站点"]，您可以在此了解如何在多个网络存储阵列上执行存储管理命令。
+
 
 
 === SANtricity Web 服务代理
 
 Web服务代理是一款功能全面的RESTful API服务器、可满足业务流程和自动化需求、可管理数百个新的和旧的E系列阵列。代理单独安装在 Windows 或 Linux 服务器上。Web 服务包含 API 文档，可用于直接与 REST API 进行交互。
+
+访问 https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html["Web服务代理文档"]。
 
 
 
@@ -80,6 +94,8 @@ Web服务代理是一款功能全面的RESTful API服务器、可满足业务流
 命令行界面（ CLI ）是一种软件应用程序，可用于配置和监控存储阵列。
 
 使用 CLI ，您可以从操作系统提示符运行命令，例如 DOS C ：提示符， Linux 操作系统路径或 Solaris 操作系统路径。
+
+转至 https://docs.netapp.com/us-en/e-series-cli/index.html["SANtricity 命令行界面文档站点"]、您可以在此了解如何使用命令行界面命令配置和监控存储阵列。
 
 
 

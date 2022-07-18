@@ -248,11 +248,13 @@
           <div id="react-search" 
           data-search-html="/zh-cn/e-series-family/search.html"
           data-type="widget" 
-          data-placeholder="搜索文档" 
-          data-no-results-found="未找到与 {query} 匹配的结果。" 
-          data-did-you-mean="搜索 {suggestion}。" 
-          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?" 
-          data-results-found="找到 {hitCount} 个结果"  
+          data-placeholder="搜索文档"
+          data-no-results-found="未找到与 {query} 匹配的结果。"
+          data-did-you-mean="搜索 {suggestion}。"
+          data-no-results-found-did-you-mean="未找到与 {query} 匹配的结果。您是否要搜索 {suggestion}?"
+          data-results-found="找到 {hitCount} 个结果"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes="clouddocs-e-series_main-prod,clouddocs-e-series-santricity_main-prod,clouddocs-e-series-cli_main-prod"
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -267,35 +269,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">简体中文</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">简体中文</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/zh-cn/e-series-family/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/e-series-family/intro-family.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/e-series-family/intro-family.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/e-series-family/intro-family.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/e-series-family/intro-family.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/e-series-family/intro-family.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/zh-cn/e-series-family/intro-family.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/e-series-family/intro-family.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/e-series-family/intro-family.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/e-series-family/intro-family.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/e-series-family/intro-family.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -339,7 +333,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/zh-cn/e-series-family/images/pdf.png" width="16" height="16"/>可用的 PDF<span>
+    <img src="/zh-cn/e-series-family/images/pdf.png" alt="" width="16" height="16"/>可用的 PDF<span>
     </span>
   </a>
 </div>
@@ -349,13 +343,12 @@
         
         
         <a target="_blank" href="/zh-cn/e-series-family/pdfs/fullsite-sidebar/E_系列文档.pdf" >
-          <img src="/zh-cn/e-series-family/images/pdf.png" width="16" height="16"/>此文档站点的 PDF</a>
-
+          <img src="/zh-cn/e-series-family/images/pdf.png" alt="" width="16" height="16"/>此文档站点的 PDF</a>
 
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/zh-cn/e-series-family/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/zh-cn/e-series-family/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>收集单独的 PDF 文档<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -388,7 +381,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/zh-cn/e-series-family/index.html">
         E系列产品系列文档
       </a></li></ul>
@@ -452,7 +445,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-23 23:37:30 +0000">05/23/2022</time>
+    <time datetime="2022-07-18 16:14:16 +0000">07/18/2022</time>
     
   
 
@@ -478,19 +471,28 @@
 <div class="sect2">
 <h3 id="ef600和ef300">EF600和EF300</h3>
 <div class="paragraph">
-<p>专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。 <a href="https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf" target="_blank" rel="noopener">"阅读EF系列产品规格"</a>。</p>
+<p>专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf" target="_blank" rel="noopener">"阅读EF系列产品规格"</a>。</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="e5700">E5700</h3>
 <div class="paragraph">
-<p>专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。 <a href="https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf" target="_blank" rel="noopener">"阅读E5700产品规格"</a>。</p>
+<p>专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf" target="_blank" rel="noopener">"阅读E5700产品规格"</a>。</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="e2800">E2800</h3>
 <div class="paragraph">
-<p>针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。 <a href="https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf" target="_blank" rel="noopener">"阅读E2800产品规格"</a>。</p>
+<p>针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf" target="_blank" rel="noopener">"阅读E2800产品规格"</a>。</p>
 </div>
 </div>
 </div>
@@ -499,7 +501,10 @@
 <h2 id="santricity-软件">SANtricity 软件</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。 <a href="https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf" target="_blank" rel="noopener">"阅读SANtricity 软件产品规格"</a>。</p>
+<p>SANtricity 软件提供了System Manager和Unified Manager基于Web的界面、用于查看、配置和管理网络中的存储系统。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf" target="_blank" rel="noopener">"阅读SANtricity 软件产品规格"</a>。</p>
 </div>
 <div class="sect2">
 <h3 id="santricity-系统管理器">SANtricity 系统管理器</h3>
@@ -522,6 +527,9 @@
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>转至 <a href="https://docs.netapp.com/us-en/e-series-santricity/system-manager/index.html">"SANtricity System Manager文档站点"</a>，您可以在其中找到有关如何规划，配置，管理存储阵列以及对其进行故障排除的信息。</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="santricity-统一管理器">SANtricity 统一管理器</h3>
@@ -541,11 +549,17 @@
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>转至 <a href="https://docs.netapp.com/us-en/e-series-santricity/unified-manager/index.html">"SANtricity Unified Manager文档站点"</a>，您可以在此了解如何在多个网络存储阵列上执行存储管理命令。</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="santricity-web-服务代理">SANtricity Web 服务代理</h3>
 <div class="paragraph">
 <p>Web服务代理是一款功能全面的RESTful API服务器、可满足业务流程和自动化需求、可管理数百个新的和旧的E系列阵列。代理单独安装在 Windows 或 Linux 服务器上。Web 服务包含 API 文档，可用于直接与 REST API 进行交互。</p>
+</div>
+<div class="paragraph">
+<p>访问 <a href="https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html">"Web服务代理文档"</a>。</p>
 </div>
 </div>
 </div>
@@ -558,6 +572,9 @@
 </div>
 <div class="paragraph">
 <p>使用 CLI ，您可以从操作系统提示符运行命令，例如 DOS C ：提示符， Linux 操作系统路径或 Solaris 操作系统路径。</p>
+</div>
+<div class="paragraph">
+<p>转至 <a href="https://docs.netapp.com/us-en/e-series-cli/index.html">"SANtricity 命令行界面文档站点"</a>、您可以在此了解如何使用命令行界面命令配置和监控存储阵列。</p>
 </div>
 </div>
 </div>
@@ -725,4 +742,5 @@
     </script>
     <script src='/zh-cn/e-series-family/js/www-ntap.js'></script>
     <script src='/zh-cn/e-series-family/js/tabbed-blocks.js'></script>
+    <script src='/zh-cn/e-series-family/js/sidebar.js'></script>
   </body></html>

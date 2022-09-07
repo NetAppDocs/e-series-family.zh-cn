@@ -26,6 +26,10 @@ E系列存储系统包括以下平台型号。
 
 专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。
 
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef600-models["阅读有关EF600型号的更多信息"]。
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#ef300-models["阅读有关EF300型号的更多信息"]。
+
 https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["阅读EF系列产品规格"^]。
 
 
@@ -34,6 +38,8 @@ https://www.netapp.com/pdf.html?item=/media/19339-DS-4082.pdf["阅读EF系列产
 
 专为具有企业级可靠性的高性能和数据密集型带宽应用程序而构建。
 
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e5700-models["阅读有关E5700型号的更多信息"]。
+
 https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["阅读E5700产品规格"^]。
 
 
@@ -41,6 +47,8 @@ https://www.netapp.com/pdf.html?item=/media/7572-ds-3894.pdf["阅读E5700产品�
 === E2800
 
 针对小型企业和远程办公室进行了优化、这些企业需要为专用应用程序提供混合工作负载性能和可靠性。
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e2800-models["阅读有关E2800型号的更多信息"]。
 
 https://www.netapp.com/pdf.html?item=/media/7573-ds-3805.pdf["阅读E2800产品规格"^]。
 

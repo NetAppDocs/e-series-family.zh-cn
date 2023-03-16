@@ -54,6 +54,6 @@ product-family:
     tags: all, tag_storage_management, tag_SANtricity
   - title: NetApp上的BeeGFS与E系列存储
     icon: "./media/api.png"
-    url: https://review.docs.netapp.com/us-en/beegfs_admin-jgallagher/index.html
+    url: https://docs.netapp.com/us-en/beegfs/index.html
     summary: 使用NetApp上的BeeGFS构建和部署高可用性基础架构、该基础架构将BeeGFS并行文件系统与NetApp EF600存储系统相结合。
     tags: all, tag_solution

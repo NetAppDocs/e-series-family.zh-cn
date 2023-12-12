@@ -14,7 +14,6 @@
   <block id="cc1ba14f8dc9bd7ba20e2aa654cde10b" category="inline-link">E 系列 /EF 系列 SANtricity 操作系统注意事项</block>
   <block id="2dae7f81af3097152530b0bc519d7eb1" category="paragraph"><block ref="2dae7f81af3097152530b0bc519d7eb1" category="inline-link-rx"></block></block>
   <block id="382db393e370bfa3a27169d580a3161c" category="summary">NetApp E系列产品系列可为需要简单、易于管理且具有企业级可靠性的快速块存储的高带宽应用程序提供存储和应用程序数据管理服务。</block>
-  <block id="dc1480e3f0580dddb0eb15f3b1bd5d52" category="doc">E系列存储系统简介</block>
   <block id="60adc38a80ac6ff80c4e7414ed3a9242" category="paragraph">NetApp E系列存储系列可灵活且经济高效地备份和恢复到云、专为需要简单、易于管理且具有企业级可靠性的快速块存储的专用高带宽应用程序而设计。</block>
   <block id="7198a11b2d2b782e219fa68720bb5d6c" category="section-title">E系列平台</block>
   <block id="f13bfd89800bb7dd61e5dae9b1a91f8a" category="paragraph">E系列存储系统使用应用程序感知型数据管理工具、这些工具可以在2U或4U外形规格中处理多种驱动器类型。您可以将存储系统从多种接口类型连接到SAN以及各种主机操作系统。</block>
@@ -90,7 +89,6 @@
   <block id="d2d722049178be8cd1890b932c825ed5" category="paragraph"><block ref="3e0982541f18ddacaca57ec40835ab89" category="inline-link-rx"></block>。</block>
   <block id="2a9dbfa4b74c53d7304fc8b79a1874d3" category="sidebar">解决方案</block>
   <block id="e4136d596bf67f3afb7cfd2326f4b522" category="sidebar">了解E系列</block>
-  <block id="3a1266b54b8b88dbb50662ab4166c05f" category="sidebar">所有文档</block>
   <block id="28e8b3e83af233fe7085ba954fc6fd36" category="sidebar">NetApp上的BeeGFS与E系列存储</block>
   <block id="c6ed86424e776eb55d39d911ea6a9183" category="sidebar">使用NetApp上的BeeGFS构建和部署高可用性基础架构、该基础架构将BeeGFS并行文件系统与NetApp EF600存储系统相结合。</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
@@ -101,4 +99,6 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="a458525d37b04d3510554badd27d0cfa" category="doc">了解E系列产品系列</block>
+  <block id="b1c94ca2fbc3e78fc30069c8d0f01680" category="sidebar">全部</block>
 </blocks>

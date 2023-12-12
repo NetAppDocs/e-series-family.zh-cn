@@ -14,8 +14,8 @@ sidebar:
     url: "/index.html"
 product-family:
   sidebarlinks:
-  - title: 所有文档
-    tags: tag_storage_management,tag_data_storage,tag_cli,tag_get_started,tag_SANtricity,
+  - title: 全部
+    tags: tag_storage_management, tag_data_storage, tag_cli, tag_get_started, tag_SANtricity,
       tag_solution
     class: active
   - title: 入门
@@ -34,26 +34,26 @@ product-family:
     tags: all, tag_get_started
   - title: E系列系统
     icon: "./media/system_line.png"
-    url: https://docs.netapp.com/us-en/e-series/index.html
+    url: "../e-series/index.html"
     summary: 使用E系列存储系统以快速的块存储和企业级可靠性为您的应用程序工作负载提供支持。
     tags: all, tag_data_storage
   - title: SANtricity 软件
     icon: "./media/config_line.png"
-    url: https://docs.netapp.com/us-en/e-series-santricity/index.html
+    url: "../e-series-santricity/index.html"
     summary: 使用SANtricity 软件从基于Web的界面配置和管理E系列存储系统。
     tags: all, tag_storage_management, tag_SANtricity
   - title: 命令行界面
     icon: "./media/cli_line.png"
-    url: https://docs.netapp.com/us-en/e-series-cli/index.html
+    url: "../e-series-cli/index.html"
     summary: 使用命令行界面从操作系统提示符配置和监控E系列存储系统。
     tags: all, tag_storage_management, tag_SANtricity
   - title: Web服务API
     icon: "./media/api.png"
-    url: https://docs.netapp.com/us-en/e-series/web-services-proxy/index.html
+    url: "../e-series/web-services-proxy/index.html"
     summary: 使用RESTful API跨新的和旧的E系列存储系统构建和自动化工作流。
     tags: all, tag_storage_management, tag_SANtricity
   - title: NetApp上的BeeGFS与E系列存储
     icon: "./media/api.png"
-    url: https://docs.netapp.com/us-en/beegfs/index.html
+    url: "../beegfs/index.html"
     summary: 使用NetApp上的BeeGFS构建和部署高可用性基础架构、该基础架构将BeeGFS并行文件系统与NetApp EF600存储系统相结合。
     tags: all, tag_solution

@@ -23,6 +23,16 @@ E系列存储系统包括以下平台型号。
 
 
 
+=== E4000
+
+专为优化分析、视频监控、高性能计算(HPC)和备份/恢复等混合工作负载的性能而构建。
+
+https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html#e4000-models["阅读有关E4000型号的更多信息"](英文)
+
+https://www.netapp.com/pdf.html?item=/media/116571-ds-4309-hybrid-flash-arrays-e4060-e4012.pdf["阅读E4000产品规格"^](英文)
+
+
+
 === EF600和EF300
 
 专为需要最高性能级别的工作负载而设计、例如大数据分析和数据库。
